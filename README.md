@@ -9,3 +9,7 @@ The dataset (which can be found here) was cleaned and analyzed for sales trends.
 ![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/17b47bc0-0a7c-47ef-86d3-7e6e4f973332)
 
 ## Summary of Insights
+
+
+## Recommendations
+
