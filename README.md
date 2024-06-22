@@ -34,6 +34,25 @@ Similarly to yearly insights, I created a PivotTable with number of orders, tota
 
 ![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/e43c7f36-7e0d-4dd2-ac94-885df5c18e78)
 
+### Loyalty Program Summary
+### Analysis:
+In 2019, eList started a loyalty program, and I created 3 PivotTables to analyze the effectiveness of the loyalty program. The table below summarizes total sales, order count, and AOV across years and grouped by loyalty or non-loyalty program members. The conditional formatting (color coding) is grouped by the KPI's (sales, order count, AOV) to highlight the highest(green) and lowest(red) KPI's across all loyalty and non-loyalty members. 
 
-## Recommendations
+![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/c597e331-f9b3-4bf4-8d49-f2baa4471274)
+
+When reviewing sales, non-loyalty members in 2020 had the highest sales numbers. The loyalty program existed for one year at this point, so it's possible that customers were familiarizing themselves with the program. By 2021, loyalty members and non-loyalty members account for an almost even split between sales and order count, which can be seen in the table below: 
+
+![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/8a647dca-ef0e-4099-94c8-1854bfb3d924)
+
+Regarding growth rates (table below), an insight worth considering is that loyalty members in 2022 saw the smallest decrease in AOV across all years. On average, their AOV dropped just 2% in comparison to non-loyalty members whose AOV dropped 18%. In 2022, total sales dropped by 47% and 44% for non-loyalty and loyalty members respectively. It suggests that even if overall sales and order count rates decrease at similar values, loyal members tend to spend more when they order. This is an opportunity to uncover why loyal members spend more and on which products they tend to spend more. 
+
+![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/de69c373-7de9-4a98-b0f6-e3074bc67791)
+
+### Key Points:
+- Loyalty sales surpassed non-loyalty sales in 2021, which is two years after the program began
+- Although loyalty sales are presently less than non-loyalty sales, loyal members tender to order more often and spend more when they do
+- Loyal members had the lowest decrease in AOV across all years and loyalty member groupings
+
+
+## Recommendations:
 
