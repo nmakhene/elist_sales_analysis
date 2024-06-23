@@ -54,5 +54,3 @@ Regarding growth rates (table below), an insight worth considering is that loyal
 - Loyal members had the lowest decrease in AOV across all years and loyalty member groupings
 
 
-## Recommendations:
-
