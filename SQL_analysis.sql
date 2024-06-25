@@ -1,5 +1,6 @@
 --What is the average quarterly order count and total sales for Macbooks sold in North America?
 
+
 WITH quarterly_mac_sales AS (SELECT DATE_TRUNC (orders.purchase_ts, quarter) as quarters,
     COUNT(orders.id) AS order_count,
     ROUND(SUM(orders.usd_price),2) AS total_sales,
@@ -17,9 +18,11 @@ SELECT ROUND(AVG(order_count),2) AS avg_qrt_count,
     ROUND(AVG(total_sales),2) AS total_mac_na_sales
 FROM quarterly_mac_sales
 
+---------------------------------------------------
 
 --For products purchased in 2022 on the website or products purchased on mobile in any year, which region has the average highest time to deliver? 
 
+    
 WITH sales_specs AS(SELECT geo_lookup.region, 
     ROUND(AVG(DATE_DIFF(order_status.delivery_ts, order_status.purchase_ts, DAY)),2) AS avg_ship_days,
 CASE
@@ -51,3 +54,6 @@ FROM sales_specs
 WHERE purchase_specs IN ('2022_web_sale', 'mobile purchase')
 GROUP BY region
 ORDER BY rank
+
+---------------------------------------------------
+
