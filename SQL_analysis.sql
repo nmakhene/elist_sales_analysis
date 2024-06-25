@@ -57,3 +57,26 @@ ORDER BY rank
 
 ---------------------------------------------------
 
+--What was the refund rate and refund count for each product overall? 
+
+SELECT CASE
+    WHEN product_name= '27in"" 4k gaming monitor' 
+    THEN "27in 4K gaming monitor" 
+    ELSE product_name
+    END AS product_name_clean,
+ROUND(SUM(CASE 
+    WHEN refund_ts IS NOT NULL
+    THEN 1
+    ELSE 0
+    END),1) as refund_count,
+ROUND(AVG(CASE 
+    WHEN refund_ts IS NOT NULL
+    THEN 1
+    ELSE 0
+    END),1) as refund_rate,
+FROM core.orders
+LEFT JOIN core.order_status
+ON orders.id = order_status.order_id
+GROUP BY product_name_clean
+ORDER BY 2 DESC
+
