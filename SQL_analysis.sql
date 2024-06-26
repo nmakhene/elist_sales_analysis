@@ -80,6 +80,3 @@ ON orders.id = order_status.order_id
 GROUP BY product_name_clean
 ORDER BY 2 DESC
 
----------------------------------------------------
-
---Within each region, what is the most popular product? 
