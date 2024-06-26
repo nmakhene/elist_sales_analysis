@@ -102,3 +102,13 @@ ORDER BY product_count DESC
 
 ---------------------------------------------------
 
+--How does the time to make a purchase differ between loyalty customers vs. non-loyalty customers?
+
+SELECT customers.loyalty_program,
+      ROUND(AVG(DATE_DIFF(orders.purchase_ts, customers.created_on, DAY))) avg_days_to_purchase,
+FROM core.orders
+LEFT JOIN core.customers
+ON orders.customer_id = customers.id
+LEFT JOIN core.order_status
+ON orders.id = order_status.order_id
+GROUP BY 1
