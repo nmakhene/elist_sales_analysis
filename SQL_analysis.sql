@@ -80,3 +80,25 @@ ON orders.id = order_status.order_id
 GROUP BY product_name_clean
 ORDER BY 2 DESC
 
+---------------------------------------------------
+
+--Within each region, what is the most popular product? 
+
+WITH region_product_rank AS ( SELECT  geo_lookup.region,
+        orders.product_name, 
+        COUNT(orders.product_name) AS product_count,
+        RANK() OVER (PARTITION BY geo_lookup.region ORDER BY (COUNT(orders.product_name))DESC) AS product_rank
+FROM core.orders
+LEFT JOIN core.customers
+ON orders.customer_id = customers.id
+LEFT JOIN core.geo_lookup
+ON customers.country_code = geo_lookup.country
+GROUP BY 1, 2
+ORDER BY 1, 3 )
+
+SELECT * FROM region_product_rank
+WHERE product_rank = 1
+ORDER BY product_count DESC
+
+---------------------------------------------------
+
