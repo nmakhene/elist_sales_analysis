@@ -68,12 +68,12 @@ ROUND(SUM(CASE
     WHEN refund_ts IS NOT NULL
     THEN 1
     ELSE 0
-    END),1) as refund_count,
+    END),2) as refund_count,
 ROUND(AVG(CASE 
     WHEN refund_ts IS NOT NULL
     THEN 1
     ELSE 0
-    END),1) as refund_rate,
+    END),2) as refund_rate,
 FROM core.orders
 LEFT JOIN core.order_status
 ON orders.id = order_status.order_id
