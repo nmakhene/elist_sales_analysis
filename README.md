@@ -1,12 +1,11 @@
 # Sales Analysis of EList e-Commerce Brand
-Sales analysis of e-commerce brand
 
 ## Background
 Founded in 2018, Elist is an e-commerce company that sells popular electronics products and has since expanded to a global customer base. Like most e-commerce companies, Elist sells products through their online site as well as through their mobile app. They use a variety of marketing channels to reach customers, including Email campaigns, SEO, and affiliate links. Over the last few years, their more popular products have been products from Apple, Samsung, and ThinkPad.
 
 The dataset was cleaned and analyzed for sales trends. The entity relationship diagram (ERD) is as follows:
 
-![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/17b47bc0-0a7c-47ef-86d3-7e6e4f973332)
+<img src="https://github.com/nmakhene/elist_sales_analysis/assets/124527594/17b47bc0-0a7c-47ef-86d3-7e6e4f973332" width="800" height="480">
 
 ## Summary of Insights
 ### Yearly Sales Summary
@@ -19,8 +18,9 @@ The dataset was cleaned and analyzed for sales trends. The entity relationship d
 - By 2022, total sales and average order value have returned to their pre-COVID numbers
 - 2019 had the lowest numberes across all 3 sales KPI's. When comparing 2019 and 2022 excluding COVID sales, there was a 28% increase in sales
 
-![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/b63776c6-7bdb-4baa-b9aa-1ab054fd60d7)
+![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/b1a64337-974f-4b06-8a68-5d8c2c3184b3) 
 
+![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/bc77041c-fb65-42c5-b076-c605ee620e63)
 
 ### Monthly Sales Summary
 #### Analysis:
@@ -31,18 +31,17 @@ Similarly to yearly insights, I created a PivotTable with number of orders, tota
 - October 2022 had the biggest decrease in sales MoM. October 2022 also had the lowest sales KPI's from 2019-2022
 - Highest sales months tend to be in November, December, and September 
 
-
 ![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/e43c7f36-7e0d-4dd2-ac94-885df5c18e78)
 
 ### Loyalty Program Summary
 ### Analysis:
 In 2019, eList started a loyalty program, and I created 3 PivotTables to analyze the effectiveness of the loyalty program. The table below summarizes total sales, order count, and AOV across years and grouped by loyalty or non-loyalty program members. The conditional formatting (color coding) is grouped by the KPI's (sales, order count, AOV) to highlight the highest(green) and lowest(red) KPI's across all loyalty and non-loyalty members. 
 
-![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/c597e331-f9b3-4bf4-8d49-f2baa4471274)
+![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/dfe44505-f2c5-4322-9312-f65395516c0e)
 
 When reviewing sales, non-loyalty members in 2020 had the highest sales numbers. The loyalty program existed for one year at this point, so it's possible that customers were familiarizing themselves with the program. By 2021, loyalty members and non-loyalty members account for an almost even split between sales and order count, which can be seen in the table below: 
 
-![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/8a647dca-ef0e-4099-94c8-1854bfb3d924)
+![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/a3f2c62e-edd1-4fca-89bf-f9ba311170bd)
 
 Regarding growth rates (table below), an insight worth considering is that loyalty members in 2022 saw the smallest decrease in AOV across all years. On average, their AOV dropped just 2% in comparison to non-loyalty members whose AOV dropped 18%. In 2022, total sales dropped by 47% and 44% for non-loyalty and loyalty members respectively. It suggests that even if overall sales and order count rates decrease at similar values, loyal members tend to spend more when they order. This is an opportunity to uncover why loyal members spend more and on which products they tend to spend more. 
 
