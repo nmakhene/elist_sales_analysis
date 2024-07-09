@@ -3,8 +3,11 @@
 ## Project Background
 Founded in 2018, Elist is an e-commerce company that sells popular electronics products and has since expanded to a global customer base. Like most e-commerce companies, Elist sells products through their online site as well as through their mobile app. They use a variety of marketing channels to reach customers, including Email campaigns, SEO, and affiliate links. Over the last few years, their more popular products have been products from Apple, Samsung, and ThinkPad.
 
+This analysis reviews sales, loyalty, refund and shipping trends from 2019-2022 at Elist in an attempt to recommend opportunities to increase sales, evaluate the effectiveness of the loyalty program, and reduce return rates. North Star metrics for this analysis are total sales, average order value and order count. Dimensions that are explored include sales region, purchase platform, marketing channel and shipping dates.
+
 ## Executive Summary
-<img src="https://github.com/nmakhene/elist_sales_analysis/assets/124527594/17b47bc0-0a7c-47ef-86d3-7e6e4f973332" width="800" height="480">
+The ERD for this dataset is as follows:
+![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/339248a4-0bd2-4939-a442-775b513b5513)
 
 ## Insights Deep-Dive
 ### Yearly Sales Summary
