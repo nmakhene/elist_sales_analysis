@@ -15,7 +15,7 @@ Founded in 2018, Elist is an e-commerce company that sells popular electronics p
 #### Key Points:
 - 2020 is the best sales year to date, which is likely due to COVID-19/pandemic sales trends across many industries
 - By 2022, total sales and average order value have returned to their pre-COVID numbers
-- 2019 had the lowest numberes across all 3 sales KPI's. When comparing 2019 and 2022 excluding COVID sales, there was a 28% increase in sales
+- 2019 had the lowest numbers across all 3 sales KPI's. When comparing 2019 and 2022 excluding COVID sales, there was a 28% increase in sales
 
 ![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/b1a64337-974f-4b06-8a68-5d8c2c3184b3) 
 
