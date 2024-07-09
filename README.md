@@ -1,13 +1,14 @@
 # Sales Analysis of EList e-Commerce Brand
 
-## Background
+## Project Background
 Founded in 2018, Elist is an e-commerce company that sells popular electronics products and has since expanded to a global customer base. Like most e-commerce companies, Elist sells products through their online site as well as through their mobile app. They use a variety of marketing channels to reach customers, including Email campaigns, SEO, and affiliate links. Over the last few years, their more popular products have been products from Apple, Samsung, and ThinkPad.
 
 The dataset was cleaned and analyzed for sales trends. The entity relationship diagram (ERD) is as follows:
 
+## Executive Summary
 <img src="https://github.com/nmakhene/elist_sales_analysis/assets/124527594/17b47bc0-0a7c-47ef-86d3-7e6e4f973332" width="800" height="480">
 
-## Summary of Insights
+## Insights Deep-Dive
 ### Yearly Sales Summary
 #### Analysis:
   To summarize yearly insights for 2019-2022, I created a PivotTable (table below) that detailed number of order, total sales, and average order value by year. One eye-catching insight is the 163% increase in sales from 2019 to 2020. The average order value (AOV) also increased by 31%. Many industries saw increases in sales due to the shutdown during the pandemic, so it's very likely that those boost in sales are due to that. 
@@ -52,4 +53,6 @@ Regarding growth rates (table below), an insight worth considering is that loyal
 - Although loyalty sales are presently less than non-loyalty sales, loyal members tender to order more often and spend more when they do
 - Loyal members had the lowest decrease in AOV across all years and loyalty member groupings
 
+## Recommendations
 
+## Assumptions and Caveats
