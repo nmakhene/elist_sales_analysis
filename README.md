@@ -54,6 +54,3 @@ Regarding growth rates (table below), an insight worth considering is that loyal
 - Although loyalty sales are presently less than non-loyalty sales, loyal members tender to order more often and spend more when they do
 - Loyal members had the lowest decrease in AOV across all years and loyalty member groupings
 
-## Recommendations
-
-## Assumptions and Caveats
