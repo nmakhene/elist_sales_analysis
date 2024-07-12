@@ -9,7 +9,8 @@ This analysis reviews sales, loyalty, refund and shipping trends from 2019-2022 
 The ERD for this dataset is as follows:
 ![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/339248a4-0bd2-4939-a442-775b513b5513)
 
-2020 is the best sales year to date, which is likely due to COVID-19/pandemic sales trends across many industries. By 2022, total sales and average order value returned to their pre-COVID numbers. The product with the highest sales was the 27” 4K gaming monitor. 
+2020 is the best sales year to date, which is likely due to COVID-19/pandemic sales trends across many industries. By 2022, total sales and average order value returned to their pre-COVID numbers. The product with the highest sales was the 27” 4K gaming monitor. Across all years, sales KPI's tend to be the highest in September, November, and December. 
+
 
 ## Insights Deep-Dive
 ### Yearly Sales Summary
