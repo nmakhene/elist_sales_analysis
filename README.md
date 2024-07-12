@@ -3,26 +3,26 @@
 ## Project Background
 Founded in 2018, Elist is an e-commerce company that sells popular electronics products and has since expanded to a global customer base. Like most e-commerce companies, Elist sells products through their online site as well as through their mobile app. They use a variety of marketing channels to reach customers, including Email campaigns, SEO, and affiliate links. Over the last few years, their more popular products have been products from Apple, Samsung, and ThinkPad.
 
-This analysis reviews sales, loyalty, refund and shipping trends from 2019-2022 at Elist in an attempt to recommend opportunities to increase sales, evaluate the effectiveness of the loyalty program, and reduce return rates. North Star metrics for this analysis are total sales, average order value and order count. Dimensions that are explored include sales region, purchase platform, marketing channel and shipping dates.
+This analysis reviews sales, loyalty, refund and shipping trends from 2019-2022 at Elist in an attempt to recommend opportunities to increase sales, evaluate the effectiveness of the loyalty program, and reduce return rates. North Star metrics for this analysis are total sales, average order value (AOV) and order count. Dimensions that are explored include sales region, purchase platform, marketing channel and shipping dates.
 
 ## Executive Summary
 The ERD for this dataset is as follows:
 ![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/339248a4-0bd2-4939-a442-775b513b5513)
 
+2020 is the best sales year to date, which is likely due to COVID-19/pandemic sales trends across many industries. By 2022, total sales and average order value returned to their pre-COVID numbers. The product with the highest sales was the 27” 4K gaming monitor. 
+
 ## Insights Deep-Dive
 ### Yearly Sales Summary
-#### Analysis:
-  To summarize yearly insights for 2019-2022, I created a PivotTable (table below) that detailed number of order, total sales, and average order value by year. One eye-catching insight is the 163% increase in sales from 2019 to 2020. The average order value (AOV) also increased by 31%. Many industries saw increases in sales due to the shutdown during the pandemic, so it's very likely that those boost in sales are due to that. 
-  Sales and order count are about the same for 2020 and 2021. In 2022, total sales and average order value return almost to their pre-COVID levels in 2022. However, order count is quite a bit higher than it was pre-COVID. This could be an opportunity to focus on increasing AOV and capitalizing on the increase in order, thereby increasing sales without having to acquire new customers.
-
+![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/b1a64337-974f-4b06-8a68-5d8c2c3184b3) ![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/bc77041c-fb65-42c5-b076-c605ee620e63)
 #### Key Points:
-- 2020 is the best sales year to date, which is likely due to COVID-19/pandemic sales trends across many industries
-- By 2022, total sales and average order value have returned to their pre-COVID numbers
-- 2019 had the lowest numbers across all 3 sales KPI's. When comparing 2019 and 2022 excluding COVID sales, there was a 28% increase in sales
+- There was a 163% increase in sales and a 31% increase in AOV from 2019 to 2020
+- 2019 had the lowest numbers across all 3 sales KPI's.
+- When comparing 2019 and 2022 (excluding 2020 and 2021 COVID sales), there was a 28% increase in sales and order count
+- AOV in 2019 and 2022 are the same ($230)
+- There’s a 46% drop in sales from 2021 to 2022, which puts total sales in 2022 closer to its 2019 pre-covid sales range of the mid-millions of dollars
+- 27” 4K gaming monitors accounted for $9.85M in sales
 
-![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/b1a64337-974f-4b06-8a68-5d8c2c3184b3) 
-
-![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/bc77041c-fb65-42c5-b076-c605ee620e63)
+![image](https://github.com/user-attachments/assets/ab04b795-2f04-4b8b-9c43-2e19dd941054)
 
 ### Monthly Sales Summary
 #### Analysis:
