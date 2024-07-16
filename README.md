@@ -6,14 +6,13 @@ Founded in 2018, Elist is an e-commerce company that sells popular electronics p
 This analysis reviews sales, loyalty, refund and shipping trends from 2019-2022 at Elist in an attempt to recommend opportunities to increase sales, evaluate the effectiveness of the loyalty program, and reduce return rates. North Star metrics for this analysis are total sales, average order value (AOV) and order count. Dimensions that are explored include sales region, purchase platform, marketing channel and shipping dates.
 
 ## Executive Summary
+2020 is the best sales year to date, which is likely due to COVID-19/pandemic sales trends across many industries. By 2022, total sales and average order value returned to their pre-COVID numbers. The product with the highest sales was the 27” 4K gaming monitor. Across all years, sales KPI's tend to be the highest in September, November, and December. March 2020 had the highest increase in sales MoM; the highest sales month was December 2020 and the lowest sales month was October 2022.
+
 The ERD for this dataset is as follows:
 ![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/339248a4-0bd2-4939-a442-775b513b5513)
 
-2020 is the best sales year to date, which is likely due to COVID-19/pandemic sales trends across many industries. By 2022, total sales and average order value returned to their pre-COVID numbers. The product with the highest sales was the 27” 4K gaming monitor. Across all years, sales KPI's tend to be the highest in September, November, and December. 
-
-
 ## Insights Deep-Dive
-### Yearly Sales Summary
+### Yearly Summary
 ![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/b1a64337-974f-4b06-8a68-5d8c2c3184b3) ![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/bc77041c-fb65-42c5-b076-c605ee620e63)
 #### Key Points:
 - There was a 163% increase in sales and a 31% increase in AOV from 2019 to 2020
@@ -23,18 +22,13 @@ The ERD for this dataset is as follows:
 - There’s a 46% drop in sales from 2021 to 2022, which puts total sales in 2022 closer to its 2019 pre-covid sales range of the mid-millions of dollars
 - 27” 4K gaming monitors accounted for $9.85M in sales
 
-![image](https://github.com/user-attachments/assets/ab04b795-2f04-4b8b-9c43-2e19dd941054)
-
-### Monthly Sales Summary
-#### Analysis:
-Similarly to yearly insights, I created a PivotTable with number of orders, total sales, and average order value. One insight that coincides with a boost in sales due to COVID is the 50% increase in sales and 46% increase in order count for March 2020. Monthly trends emerged looking over the span of 4 years of sales numbers. Across all years, sales KPI's tend to be the highest in November and December. There is usually a decrease in numbers in January and February. October across all years sees a drop in sales and September (with the exception of 2022) always see an increase in sales. It's possible that people spend more during the holiday season, therefore spending less in January and February to balance out their spending. The beginning of the school year could explain the increase in sales in September and it's possible that October is a lower sales month due to people saving from "back to school" shopping as well as holding out for the holiday season. I recommend creating an incentive for people to either shop more in October without disincentivizing them to withhold in November (Black Friday). Potentially, we could encourage clients to shop more in October so that they'll recieve a coupon in November that would stack on Black Friday deals the company is already offering. 
+### Monthly Summary
 
 #### Key Points:
-- March 2020 had the highest increase in sales and order count MoM
-- October 2022 had the biggest decrease in sales MoM. October 2022 also had the lowest sales KPI's from 2019-2022
-- Highest sales months tend to be in November, December, and September 
-
-![image](https://github.com/nmakhene/elist_sales_analysis/assets/124527594/e43c7f36-7e0d-4dd2-ac94-885df5c18e78)
+- One insight that coincides with a boost in sales due to COVID is the 50% increase in sales and 46% increase in order count during March 2020 which translates to $241,033 increase in sales and a 760 increase in order count
+- The month with the highest sales and order count was December 2020 with sales at $1,251,721 and order count at 4,019
+- October 2022 had the lowest sales and order count which were $178,275 and 825 respectively
+- Highest sales months tend to be in November, December, and September averaging at $659,524 in sales for these months, which is $73,841 higher than the total monthly average across the data
 
 ### Loyalty Program Summary
 ### Analysis:
