@@ -41,7 +41,7 @@ This Elist Tableau dashboard gives a high-level overview of key metrics such as 
 - In 2022, total sales dropped by 47% and 44% for non-loyalty and loyalty members respectively. It suggests that even if overall sales and order count rates decrease at similar values, loyal members tend to spend more when they order
 - Loyal members had the lowest decrease in AOV across all years even when accounting for decrease in overall sales with the AOV remaining at $230
 
-### Recommendations
+## Recommendations
 - Although total sales has returned closer to its pre-COVID numbers, order count has a 28% increase when comparing 2019 and 2022 while AOV remained the same. This is an opportunity to focus on increasing AOV so that total sales increase while potentially cutting cost on acquiring new customers that would have led to the same increase in sales
 -	The loyalty program is effective when looking at AOV and order count. Creating an incentive for non-loyal members to become loyal members is a strategy that could lead to higher AOV and sales
 -	Promoting a Valentine's or Halloween sale could lead to an increase in lower sales months like February and October. Additionally, holiday themed accessories that accompany the electronics could promote more sales  
